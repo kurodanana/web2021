@@ -4,8 +4,12 @@
   <meta charset="UTF-8">
   <title> Web開発の練習１</title>
  <link rel="stylesheet"href="mystyle.css">
+
  <!--<script src="myjs.js"></script>-->
-  <script src="ex6-1.js"></script><!--この行を追加-->
+
+  <script src="ex6-1.js"></script>
+  <script src="ex6-2.js"></script>
+  <script src="ex6-5.js"></script>
 </head>
 <body>
   <!--文字の大きさの練習-->
@@ -19,40 +23,10 @@
       <li>ほげほげ</li>
       <li>ほにゃらら</li>
   </ol>
-  <script src="myjs.js">
-  </script>
-  <br>
-  <h1>練習問題2.3</h1>
-  <br>
   <a id="abc">ここがabcの場所</a>
-<dl> 
-<dt>作者</dt>
- <dd>ジョン</dd>
-<dd>ポール</dd>
- <dd>ジョージ</dd>
-  <dd>リンゴ</dd>
-   </dl>
 
-<dl>
- <dt lang="ja"><dfn>色</dfn></dt>
-  <dt lang="en-US"><dfn>color</dfn></dt> 
-  <dt lang="en-GB"><dfn>colour</dfn></dt> 
-  <dd>可視光線の波長の長短によって人が視覚で感じ 分けられる色覚・色刺激のこと。</dd>
-   </dl> 
-   <p>ゲームの得点は以下の順序で計算されます。
-   </p> 
-   <dl> 
-   <dt>金貨を獲得している場合</dt> 
-   <dd>金貨一枚につき１０ポイント加算されます。 
-   </dd> 
-   <dt>銀貨を獲得している場合</dt>
-    <dd>銀貨一枚につき１ポイント加算されます。</dd>
-    <dt>枚数に関わらず、金貨と銀貨の両方を獲得して いる場合</dt> 
-    <dd>ボーナスポイントとして２０ポイント加算されます 。 </dd> 
-    <dt>それ以外の場合</dt> 
-    <dd>ポイントは加算されません。</dd>
-     </dl> 
-     <br>
+  <br>
+
      <h1>練習問題2.4</h1>
      <br>
      <table> 
@@ -91,103 +65,7 @@
 </tbody> 
 </table> 
 <br>
-<h1>練習問題2.5</h1>
-<br>
-<ul> 
-<li>参考資料を調べ、次のように表示されるHTMLを書きなさい。
- <p style="margin:1ex">x<sup>2</sup>+y<sup>2</sup>=z<sup>2</sup><br 
- /> 
- この授業は<b>情報特講１</b>で、<s>眠くなる</s>大変興味深い内容です 
- 。<br />
- <bdo dir="rtl">昔の日本語は右から左に書いていました。</bdo></p> 
- </li> 
- </ul>
- <br>
-<h1>練習問題2.6</h1> 
-<br>
-<p>テキスト入力：<input type="text"></p>
-<br>
-<h1>練習問題2.7</h1>
-<br>
-<form action="xxx.php" method="post"><label>メール（ 
-type="email"）:<input type="email" 
-name="email"></label><input type="submit" value="送信 
-"></form> 
-<form action="xxx.php" method="post"><label>URL（ 
-type="url"）:<input type="url" name="url"></label><input 
-type="submit" value="送信"></form> 
-<form action="xxx.php" method="post"><label>検索（ 
-type="search"）:<input type="search" 
-name="search"></label><input type="submit" value="送信 
-"></form> 
-<form action="xxx.php" method="post"><label>電話（ 
-type="telephone"）:<input type="tel" 
-name="tel"></label><input type="submit" value="送信 
-"></form>
-<form action="xxx.php" method="post"><label>数値（ 
-type="number"）:<input type="number"
- name="number"></label><input type="submit" value="送信 
- "></form> 
- <form action="xxx.php" method="post"><label>日付（ 
- type="date"）:<input type="date" 
- name="date"></label><input type="submit" value="送信 
- "></form> 
- <form action="xxx.php" method="post"><label>日時（ 
- type="datetime"）:<input type="datetime" 
- name="datetime"></label><input type="submit" value="送信 
- "></form> 
- <form action="xxx.php" method="post"><label>ローカル
- （type="datetime-local"）:<input type="datetime-local" 
- name="datetime-local"></label><input type="submit" 
- value="送信"></form>
- <form action="xxx.php" method="post"><label>月（ 
- type="month"）:<input type="month" 
- name="month"></label><input type="submit" value="送信 
- "></form> 
- <form action="xxx.php" method="post"><label>週（ 
- type="week"）:<input type="week" 
- name="week"></label><input type="submit" value="送信 
- "></form> 
- <form action="xxx.php" method="post"><label>時間（ 
- type="time"）:<input type="time" 
- name="time"></label><input type="submit" value="送信 
- "></form> 
- <form action="xxx.php" method="post"><label>レンジ（ 
- type="range"）:<input type="range" 
- name="range"></label><input type="submit" value="
- "></form>
- <form action="xxx.php" method="post"><label>色（ 
- type="color"）:<input type="color" 
- name="color"></label><input type="submit" value="送信 
- "></form> 
- <br>
- <h1>練習問題2.8</h1>
- <br>
- <p><label>名前：<input type="text" name="name" size="30" maxlength="20"></label></p>
- <p><label>パスワード：<input type="password" name="pass" size="6" 
- maxlength="4"></label></p> 
- <p>学年： 
- <label><input type="radio" name="gakunen" value="1">１年生</label> 
- <label><input type="radio" name="gakunen" value="2">２年生</label> 
- <label><input type="radio" name="gakunen" value="3">３年生</label> 
- <label><input type="radio" name="gakunen" value="4">４年生</label> 
- <label><input type="radio" name="gakunen" value="5">５年生</label> 
- <label><input type="radio" name="gakunen" value="6">６年生</label> 
- </p> 
- <p>好きな課目：
-<label><input type="checkbox" name="kamoku" value="kokugo">国語</label> 
-<label><input type="checkbox" name="kamoku" value="eigo">英語</label> 
-<label><input type="checkbox" name="kamoku" value="sansu">算数</label> 
-<label><input type="checkbox" name="kamoku" value="rika">理科</label> 
-<label><input type="checkbox" name="kamoku" value="syakai">社会</label> 
-<label><input type="checkbox" name="kamoku" value="taiiku">体育</label> 
-</p> 
-<p><label>宿題ファイル：<input type="file" name="syukudai"></label></p> 
-<p> 
-<input type="submit" value="送信">
- <input type="reset" value="リセット"> 
- </p>
-<br>
+
 <h1>練習問題3.1</h1>
 <br>
 <a href="a.html">相対パスでリンクします</a><br> 
@@ -197,67 +75,19 @@ type="number"）:<input type="number"
 <br> 
 <a href="mailto:info@yahoo.com">メール（実際には動きません）</a><br> 
 <a href="https://www.josai.ac.jp/"><img src="./image/keiei_small.jpg" alt="城西大学経営学部"></a>
-<h1>練習問題3.2</h1>
-<a href="a.html" target="_blank">別画面を開いてリ
-ンクします</a><br>
-<a href="a.html" target="_self">リンク元と同じフレー
-ムにリンクします</a><br>
-<a href="a.html" target="_parent">ひとつ上の親フ
-レームにリンクします</a><br>
-<a href="a.html" target="_top">フレームをすべて解
-除してリンクします</a><br>
-<a href="a.html" target="abc">abcという名前のフレ
-ームにリンクします</a><br>
-<br>
-<h1>練習問題3.3</h1>
-<br>
-<a id="abc">ファイルの途中にabcという名前を付けま
-す</a><br>
-<a href="#abc">abcと名前を付けた場所へリンクしま
-す</a><br>
-<a href="a.html#def">別ファイルの名前を付けた場
-所へリンクします</a>
-<br>
-<h1>練習問題3.4</h1>
-<br>
-<aside class="ad">
-<h1>広報</h1>
-<a href="https://www.josai.ac.jp/club/jyosisofuto.html">
-<section>
-<h1>城西大学 女子ソフトボール部</h1>
-<p>女子ソフトボール部＜全日本総合女子ソフトボール選手権大会出場決定！＞
-</p>
-</section></a>
-<a href="https://www.josai.ac.jp/news/20200615-04.html">
-<section>
-<h1>城西大学 JOSAI SPORTS FEILD </h1>
-<p> JOSAI SPORTS FIELD 建設・整備が進んでいます【城西大学 坂戸キャンパス】
-</p>
-<p>城西大学坂戸キャンパスの北側の毛呂山町下川原沼に、サッカー場２面、ソフトボ
-ール場１面、アップダウンのあるランニングコース、管理施設にはシャワー室やミーティ
-ングルームなどを備えた新しいグラウンド "JOSAI SPORTS FEILD" が完成間近です。
-使用開始は、2020年9月の予定です。</p>
-</section></a>
-</aside>
-<br>
-<h1>練習問題3.5</h1>
-<br>
-<nav>
-<ul>
-<li><a
-href="https://www.josai.ac.jp/club/jyosisofuto.html">女子
-ソフトボール部</a></li>
-<li><a
-href="https://www.josai.ac.jp/club/ekiden_hakone.html">
-男子駅伝部</a></li>
-<li><a
-href="https://www.josai.ac.jp/club/ekiden_joshiekiden.html
-">女子駅伝部</a></li>
-<li><a>クラブ・サークル活動</a></li>
-</ul>
-</nav> 
+
 <h1>練習問題6.1</h1>
 <input type="button"value="ここをクリック"onclick="sayhello61();">
 <input type="button" value="ここをクリック"onclick="sayhello61();sayhello61();">
+<br>
+
+<h1>練習問題6.2</h1>
+<input type="button" value="ここをクリック"onclick="saygoodbye();">
+<br>
+<h1>練習問題6.5</h1>
+<h1>変数の練習</h1>
+<input type="button" value="あいさつ" onclick="sayhello65();">
+<input type="button" value="太郎" onclick="taro65();">
+<input type="button" value="花子" onclick="hanako65();">
 </body>
 </html>

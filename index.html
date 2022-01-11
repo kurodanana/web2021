@@ -15,7 +15,9 @@
   <script src="ex06-9.js"></script>
   <script src="ex6-10.js"></script>
   <script src="ex6-11.js"></script>
-
+  <script src="ex6-12.js"></script>
+  <script src="ex07-1.js"></script>
+  <script src="ex07-3.js"></script>
 </head>
 <body>
   <!--文字の大きさの練習-->
@@ -46,7 +48,7 @@
 </details> 
 </caption> 
 <thead> 
-<tr><th>長所</th><th>どこで食べるか</th><th>短所</th></tr> 
+<tr><th class="important"></th>>長所</th><th>どこで食べるか</th><th>短所</th></tr> 
 </thead> 
 <tbody> 
 <tr><td>ネタにこだわり、技術が素晴らしい</td><th>銀座の高級店 
@@ -71,7 +73,10 @@
 </tbody> 
 </table> 
 <br>
-
+<p class="sample1">セキュリティ対策は今後もますます重要になります。</p>
+<p class="sample2">セキュリティ対策は今後もますます重要になります。</p>
+<p class="sample3">セキュリティ対策は今後もますます重要になります。</p>
+<br>
 <h1>練習問題3.1</h1>
 <br>
 <a href="a.html">相対パスでリンクします</a><br> 
@@ -85,49 +90,45 @@
 <h1>練習問題6.1</h1>
 <input type="button"value="ここをクリック"onclick="sayhello61();">
 <input type="button" value="ここをクリック"onclick="sayhello61();sayhello61();">
+<input type="button"value="ここをクリック"onclick="sayhello61();"></body>
 <br>
 
 <h1>練習問題6.2</h1>
 <input type="button" value="ここをクリック"onclick="saygoodbye();">
 <br>
 <h1>練習問題6.5</h1>
-<h1>変数の練習</h1>
 <input type="button" value="あいさつ" onclick="sayhello65();">
 <input type="button" value="太郎" onclick="taro65();">
 <input type="button" value="花子" onclick="hanako65();">
-
 <br>
 <h1>練習問題6.6</h1>
 <input type="button" value="あいさつ" onclick="sayhello65();">
 <input type="button" value="太郎" onclick="taro65();gakita();">
 <input type="button" value="花子" onclick="hanako65();gakita();">
 <br>
-
-<h1>練習問題6.7</h1>
 <h1>引数の練習</h1>
 <input type="button" value="あいさつ" onclick="sayhello67();">
 <input type="button" value="太郎" onclick="someone('太郎');">
 <input type="button" value="花子" onclick="someone('花子');">
 <br>
 
-<h1>練習問題6.8</h1>
 <h1>JavaScriptによる変更の練習</h1>
 <input type="button" value="あいさつ" onclick="sayhello68();">
 <input type="button" value="太郎" onclick="taro68();">
-<input type="button" value="花子" onclick="hanako68();"><p id="who68">world</p>
+<input type="button" value="花子" onclick="hanako68();">
+<p id="who68">world</p>
 <br>
 
-<h1>JavaScriptによるページの変更69</h1>
+<h1>JavaScriptによるページの変更6-9</h1>
 <div id="txt1" ><input type="button" value="テキストの変更" onclick="txtchange1();">城西大学</div>
 <br>
-
 <h1>練習問題6.10</h1>
 <input type="button" value="画像の変更" onclick="imgchange1();">
 <input type="button" value="戻る" onclick="imgchange2();">
 <img src='./image/josai.jpg' id="logo" alt="JosaiLogo" class=imagechange">
 <br>
 
-<h1>練習問題6.11</h1>
+<h1>タイマーイベントによる実行</h1>
 <form name="timer"> 
   <input type="button" value="スタート" 
   onclick="startfnc()">
@@ -136,5 +137,19 @@
    value=""> </form>
    <form><input type="button" value="timer"
     onchange="setTimeout('mes()',3000)"></form>
-</body>
+<br>
+<h1>タイマーイベントによる実行</h1>
+<form name="timer"><input type="button" value="スタート" onclick="hyoj();">
+  <br>
+  <input type="text" name="moji" size="30" value=""></form>>
+<h1>テキスト入力の練習</h1>
+<input type="button" value="あいさつ" 
+onclick="sayhello71();">
+<p>誰？<input type="text" id="who71"></p>
+<br>
+<h1>足し算</h1>
+<p><input type="text" id="input1">+<input type="text" id="input2">
+  <input type="button" value="計算" onclick="add();">
+</p>  
+  </body>
 </html>
